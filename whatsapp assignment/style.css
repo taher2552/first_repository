@@ -54,18 +54,20 @@ menu button{
 }
 
 .search{
-    background-color: #f6f6f6;
+    background-color: white;
     display: flex;
     justify-content:center;
     align-items: center;
 }
 
-input{
+.input_container input{
     border: none;
     outline: none;
     width: 100%;
     margin-left: 1rem;
     background-color: #f0f2f5;
+    padding-right: 160px;
+    text-align: left;
 }
 
 .input_container{
@@ -76,6 +78,12 @@ input{
     padding: 0 2rem;
     background-color: #f0f2f5;
     border-radius: 12px;
+    
+}
+
+ul {
+    overflow-y: scroll;
+    height: 80vh;
 }
 
 .input_container span{
@@ -173,11 +181,22 @@ ul li img{
     background-color: #ededed;
 }
 .textarea{
-    background-image: url("blue.jpg");
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255,255, 0.6)),
+    url('images/blue_background.jpg');
+    
     width: 100%;
-    height: 89.5%;
+    height: 80vh;
     position:relative;
+    overflow: hidden;
+    overflow-y: scroll;
 }
+
+.name_background{
+    background-color: #F0F2F5;
+}
+
+
 
 .date{
     text-align: center;
@@ -237,4 +256,34 @@ ul li img{
 
 .check2{
     color: grey;
+}
+
+.messageType{
+    border:2px solid transparent;
+    /* background-color: #F0F2F5; */
+    background-color: #F0F2F5;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom:0;
+    width: 65%;
+}
+
+.messageType input{
+    border: none;
+    outline: none;
+    width: 80%;
+     padding: 10px;
+     font-size: 1rem;
+    background-color:white;
+    height:40px;
+
+    border-radius: 6px;
+
+}
+.messageType .fa{
+    font-size: 2rem;
+    color:#54656F;
 }
