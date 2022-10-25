@@ -347,3 +347,9 @@ sub{
     margin-right: 30px;
     font-size: 1.5rem;
 }
+
+.side_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
