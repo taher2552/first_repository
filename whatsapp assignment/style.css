@@ -68,6 +68,7 @@ menu button{
     background-color: #f0f2f5;
     padding-right: 160px;
     text-align: left;
+    font-size: 0.9rem;
 }
 
 .input_container{
@@ -105,10 +106,18 @@ ul li{
 
 }
 
+.blue_tick{
+    color:blue;
+}
+
 ul li img{
     width:3rem;
     height: 3rem;
     border-radius: 1000px;
+}
+
+sub{
+    color:grey;
 }
 
 
@@ -183,10 +192,9 @@ ul li img{
 .textarea{
     background-image:
     linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255,255, 0.6)),
-    url('images/blue_background.jpg');
-    
+    url('images/blue_background.jpg');    
     width: 100%;
-    height: 80vh;
+    height: 82vh;
     position:relative;
     overflow: hidden;
     overflow-y: scroll;
@@ -224,7 +232,7 @@ ul li img{
 
 }
 
-.messageRight, .messageRight1{
+.messageRight, .messageRight1, .messageRight2, .messageRight3, .messageRight4,.messageRight5{
     padding:10px;
     margin-top: 15px;
     border-radius: 10px;
@@ -237,11 +245,33 @@ ul li img{
 .messageRight1{
     margin-top: 100px;
 }
+.messageRight2{
+    margin-top: 206px;
+    width:75%;
+}
+.messageRight3{
+    margin-top: 355px;
+}
+
+.messageRight4{
+    margin-top: 480px;
+    margin-bottom: 20px;
+    
+}
+
+.messageRight2 sub{
+    padding-left: 30rem;
+}
+
+.messageRight5{
+    margin-top: 520px;
+    visibility: hidden;
+}
 
 
 
 
-.messageLeft, .messageLeft1{
+.messageLeft, .messageLeft1, .messageLeft2, .messageLeft3{
     position: absolute;
     background-color: white;
     padding:10px;
@@ -252,6 +282,18 @@ ul li img{
 }
 .messageLeft1{
     margin-top: 150px;
+}
+.messageLeft2{
+    margin-top: 280px;
+    width:75%;
+}
+.messageLeft3{
+    margin-top: 430px;
+}
+
+.messageLeft2 sub{
+    padding-left: 25rem;
+    padding-right: 0;
 }
 
 .check2{
@@ -286,4 +328,22 @@ ul li img{
 .messageType .fa{
     font-size: 2rem;
     color:#54656F;
+}
+
+.magnify{
+    font-size: 1.4rem;
+    margin-right: 15px;
+    color: #61707A;
+  
+}
+
+.menu button{
+    color: #54656F;
+    font-size: 1.2rem;
+
+}
+.ellips{
+    color: #61707A;
+    margin-right: 30px;
+    font-size: 1.5rem;
 }
